@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:automatic-styles>
+  <style:style style:name="P1"  style:family="paragraph"><style:text-properties style:font-name="Times New Roman" fo:font-size="8pt"/></style:style>
+  <style:style style:name="P2"  style:family="paragraph"><style:text-properties style:font-name="Times New Roman" fo:font-size="10pt"/></style:style>
+  <style:style style:name="P3"  style:family="paragraph"><style:text-properties style:font-name="Times New Roman" fo:font-size="12pt"/></style:style>
+  <style:style style:name="P4"  style:family="paragraph"><style:text-properties style:font-name="Times New Roman" fo:font-size="14pt"/></style:style>
+  <style:style style:name="P5"  style:family="paragraph"><style:text-properties style:font-name="Times New Roman" fo:font-size="18pt"/></style:style>
+  <style:style style:name="P6"  style:family="paragraph"><style:text-properties style:font-name="Times New Roman" fo:font-size="24pt"/></style:style>
+  <style:style style:name="P7"  style:family="paragraph"><style:text-properties style:font-name="Courier New" fo:font-size="10pt"/></style:style>
+  <style:style style:name="P8"  style:family="paragraph"><style:text-properties style:font-name="Courier New" fo:font-size="14pt"/></style:style>
+  <style:style style:name="P9"  style:family="paragraph"><style:text-properties style:font-name="Courier New" fo:font-size="18pt"/></style:style>
+  <style:style style:name="P10" style:family="paragraph"><style:text-properties style:font-name="Helvetica" fo:font-size="10pt"/></style:style>
+  <style:style style:name="P11" style:family="paragraph"><style:text-properties style:font-name="Helvetica" fo:font-size="18pt"/></style:style>
+  <style:style style:name="P12" style:family="paragraph"><style:text-properties style:font-name="Helvetica" fo:font-size="24pt"/></style:style>
+ </office:automatic-styles>
+ <office:body><office:text>
+  <text:p text:style-name="P1">Times New Roman 8 point.</text:p>
+  <text:p text:style-name="P2">Times New Roman 10 point.</text:p>
+  <text:p text:style-name="P3">Times New Roman 12 point.</text:p>
+  <text:p text:style-name="P4">Times New Roman 14 point.</text:p>
+  <text:p text:style-name="P5">Times New Roman 18 point.</text:p>
+  <text:p text:style-name="P6">Times New Roman 24 point.</text:p>
+  <text:p text:style-name="P7">Courier 10 point.</text:p>
+  <text:p text:style-name="P8">Courier 14 point.</text:p>
+  <text:p text:style-name="P9">Courier 18 point.</text:p>
+  <text:p text:style-name="P10">Helvetica 10 point.</text:p>
+  <text:p text:style-name="P11">Helvetica 18 point.</text:p>
+  <text:p text:style-name="P12">Helvetica 24 point.</text:p>
+ </office:text></office:body>
+</office:document>

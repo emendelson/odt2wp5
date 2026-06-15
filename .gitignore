@@ -1,0 +1,23 @@
+# Build outputs
+/build/
+*.o
+*.lo
+*.dSYM/
+
+# Compiled binaries (this project builds these; don't commit them)
+/odt2wp5
+/odt2wp6
+/odt2wp5_test
+/gen_charmap
+/gen_wp6_charmap
+
+# Conversion outputs and scratch test files
+*.wp
+*.wp5
+*.wp6
+*.WP6
+*.odt
+/*.fodt          # loose scratch inputs; curated demos live in examples/
+
+# macOS
+.DS_Store

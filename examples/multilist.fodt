@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document
+    xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+    xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+    xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+    xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+    office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:styles>
+  <text:list-style style:name="Outline1">
+   <text:list-level-style-number text:level="1" style:num-format="1" style:num-suffix=".">
+    <style:list-level-properties/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-format="a" style:num-suffix=")">
+    <style:list-level-properties/>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-format="i" style:num-suffix=".">
+    <style:list-level-properties/>
+   </text:list-level-style-number>
+  </text:list-style>
+ </office:styles>
+ <office:body>
+  <office:text>
+   <text:p>Multi-level outline numbering test:</text:p>
+   <text:list text:style-name="Outline1">
+    <text:list-item>
+     <text:p>First top item</text:p>
+     <text:list>
+      <text:list-item>
+       <text:p>First sub item</text:p>
+       <text:list>
+        <text:list-item><text:p>Deep one</text:p></text:list-item>
+        <text:list-item><text:p>Deep two</text:p></text:list-item>
+       </text:list>
+      </text:list-item>
+      <text:list-item><text:p>Second sub item</text:p></text:list-item>
+     </text:list>
+    </text:list-item>
+    <text:list-item><text:p>Second top item</text:p></text:list-item>
+   </text:list>
+  </office:text>
+ </office:body>
+</office:document>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:automatic-styles>
+  <style:style style:name="T1" style:family="text"><style:text-properties style:font-name="Courier" fo:font-size="12pt"/></style:style>
+  <style:style style:name="T2" style:family="text"><style:text-properties style:font-name="Times New Roman" fo:font-size="12pt"/></style:style>
+  <style:style style:name="T3" style:family="text"><style:text-properties style:font-name="Helvetica" fo:font-size="12pt"/></style:style>
+ </office:automatic-styles>
+ <office:body><office:text>
+  <text:p><text:span text:style-name="T1">This is Courier 12.</text:span></text:p>
+  <text:p><text:span text:style-name="T2">This is Times New Roman 12.</text:span></text:p>
+  <text:p><text:span text:style-name="T3">This is Helvetica 12.</text:span></text:p>
+ </office:text></office:body>
+</office:document>
